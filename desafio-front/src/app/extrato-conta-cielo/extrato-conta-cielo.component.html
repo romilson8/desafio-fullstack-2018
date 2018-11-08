@@ -1,0 +1,26 @@
+<mat-toolbar color="primary">
+    <span>Extrato de conta - Lista de lançamentos</span>
+</mat-toolbar>
+
+<div *ngIf="extrato">
+
+    <mat-accordion>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    Total Controle de Lançamentos
+                </mat-panel-title>
+                <mat-panel-description>
+                    Valores e quantidades totais de lançamentos
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>Quantidade de lançamentos: {{extrato.totalControleLancamento.quantidadeLancamentos}}</p>
+            <p>Quantidade de remessas: {{extrato.totalControleLancamento.quantidadeRemessas}}</p>
+            <p>Valor de lançamentos: {{extrato.totalControleLancamento.valorLancamentos}}</p>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>
+
+<div *ngIf="listaControleLancamento">
+    <app-lista-de-lancamentos [lancamentos]="listaControleLancamento"></app-lista-de-lancamentos>
+</div>
