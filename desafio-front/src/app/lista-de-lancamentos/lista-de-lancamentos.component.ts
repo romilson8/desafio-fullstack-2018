@@ -43,6 +43,7 @@ export class ListaDeLancamentosComponent implements OnInit {
   dataSource: ListaControleLancamento[];
   displayedColumns: string[] = ['dataEfetivaLancamento', 'lancamentoContaCorrenteCliente.nomeTipoOperacao'
     , 'lancamentoContaCorrenteCliente.numeroRemessaBanco', 'lancamentoContaCorrenteCliente.nomeSituacaoRemessa',
+    'dataLancamentoContaCorrenteCliente',
     'dadosBancarios', 'valorLancamentoRemessa'];
   constructor() { }
 
