@@ -45,3 +45,17 @@ $ npm build
 $ cd desafio-back
 $ mvnw clean install
 $ mvnw spring-boot:run
+```
+
+# Executando testes
+
+### Front-end
+Unitários via Karma
+
+$ ng test
+
+### Back-end
+
+Integração e unitários via Junit
+
+$ mvnw test
