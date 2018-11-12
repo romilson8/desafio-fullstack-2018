@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ExtratoContaService } from '../shared/extrato-conta.service/extrato-conta.service';
 import { ListaControleLancamento } from '../lista-de-lancamentos/lista-de-lancamentos.component';
 
+
 @Component({
   selector: 'app-extrato-conta-cielo',
   templateUrl: './extrato-conta-cielo.component.html',
