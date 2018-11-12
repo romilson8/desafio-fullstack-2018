@@ -1,4 +1,4 @@
-package com.desafiocieloacc;
+package com.cielo.desafiocielobackend;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
